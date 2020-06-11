@@ -1,0 +1,163 @@
+/* -----Variables */
+
+:root{
+  --green-color:#7acc2d;
+}
+
+
+
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  background-color: var(--green-color);
+  padding: 10px;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  padding: 10px;
+  margin:auto 10px;
+}
+nav li{
+  padding-left: 10px;
+  list-style: none;
+
+}
+nav li a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+nav li a:hover{
+  color: #fff;
+}
+/* ----------main_section */
+.main_section{
+  padding: 10%;
+  text-align: center;
+}
+.products{
+  display: flex;
+  justify-content: center;
+  height: 1px;
+  padding: 15%;
+  background-size: cover;
+  background-position: center top;
+  background-image: url('https://static.platzi.com/media/tmp/class-files/git/Desarrollo_web/Desarrollo_web-c10/images/curve.png');
+}
+.product{
+  padding: 10px;
+  margin-top: -300px;
+}
+
+.product .content{
+  background-color: #fff;
+  box-shadow: 0 0 5px #727272;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  max-width: 250px;
+  box-sizing: border-box;
+}
+
+.img_content{
+  text-align: center;
+  box-sizing: border-box;
+}
+.main_button{
+  color: #000;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: #7acc2d;
+  width: 100%;
+}
+.main_button:hover{
+  /* box-shadow: 0 0 5px #727272; */
+  background-color: #3f8241;
+  color: #fff;
+  cursor: pointer;
+}
+/* -------section benefits */
+.benefits_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-items: center;
+  align-content: center;
+}
+.advantage{
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+.img_benefits {
+  display: contents;
+  text-align: center;
+  box-sizing: border-box;
+}
+.img_benefits img{
+  width: 60px;
+  height: 60px;
+}
+/* ------Section Mentions */
+.mentions {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #eeeeee;
+
+}
+.mentions h2{
+  margin-top:20px;
+}
+.mentions_container{
+  max-width:100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+}
+.mentions_description{
+  box-sizing:content-box;
+  max-width: 240px;
+  box-shadow: 0 0 5px #727272;
+  text-align: left;
+}
+.mentions_description h3,p{
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+/* -------footer */
+footer{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #313337;
+  color: #fff;
+  height: 30px;
+  align-items: center;
+  padding: 0 20px;
+}
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
