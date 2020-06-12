@@ -57,6 +57,12 @@
   button{
     font-size: .6em;
   }
+  .form button{
+    font-size: .7em;
+  }
+  label{
+    font-size: .6em;
+  }
   .mentions_container{
     max-width:100%;
     display: grid;

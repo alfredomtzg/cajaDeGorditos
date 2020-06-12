@@ -1,0 +1,27 @@
+body{
+  display: flex;
+  background-color: #727272;
+  text-align: center;
+  color:#fff;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content_paypal{
+  width: 50%;
+}
+.content_paypal
+a,
+h3,
+img {
+  text-decoration: none;
+  color:#fff;
+  margin-bottom: 15px;
+}
+.content_paypal a{
+  color: var(--green-color);
+}
+.sadPepe{
+  width: 30%;
+  height: 30%;
+}

@@ -1,0 +1,12 @@
+.faqContainer{
+  width: 80%;
+  margin: auto;
+}
+.faq{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.faq p{
+  padding: 15px;
+  font-weight: 300;
+}
