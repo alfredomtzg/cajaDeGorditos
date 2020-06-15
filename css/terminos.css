@@ -1,0 +1,20 @@
+.terminos{
+  height: 100%;
+
+}
+.terminosContainer{
+  display: ;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  height: ;
+}
+.terminosContainer h2{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.terminosContainer p{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
