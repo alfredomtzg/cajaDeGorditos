@@ -41,6 +41,7 @@
         margin-top: 25px;
     }
     .sale {
+        height: 30rem;
         padding: 4rem 2rem;
     }
 }
@@ -88,5 +89,6 @@
     */
     .sale {
         padding: 2rem;
+        height: 30rem;
     }
 }
