@@ -1,76 +1,92 @@
-@media (max-width: 1024px){
-  .mentions_container{
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .product{
-    margin-top: -248px;
-  }
+@media (max-width: 1024px) {
+    .mentions_container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .product {
+        margin-top: -248px;
+    }
 }
+
 @media (max-width: 768px) {
-  .products{
-    display: inherit;
-    height: auto;
-  }
-  .product{
-    margin-top: auto;
-  }
-  .content{
-    margin:auto;
-  }
-  .main_section{
-    padding: 5%;
-  }
-  .benefits_container{
-    max-width:100%;
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .advantage{
-  width: 80%;
-  padding: 10px;
-  }
-  .mentions_container{
-    max-width:100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 20px;
-  }
-  .mentions_description{
-    margin-top: 25px;
-  }
+    .products {
+        display: inherit;
+        height: auto;
+    }
+    .product {
+        margin-top: auto;
+    }
+    .content {
+        margin: auto;
+    }
+    .main_section {
+        padding: 5%;
+    }
+    .benefits_container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .advantage {
+        width: 80%;
+        padding: 10px;
+    }
+    .mentions_container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+    }
+    .mentions_description {
+        margin-top: 25px;
+    }
+    .sale {
+        padding: 4rem 2rem;
+    }
 }
 
 @media (max-width: 425px) {
-  h1{
-    font-size: .9em;
-  }
-  h2{
-    font-size: .8em;
-  }
-  h3{
-    font-size: .7em;
-  }
-  p{
-    font-size: .6em;
-  }
-  button{
-    font-size: .6em;
-  }
-  .form button{
-    font-size: .7em;
-  }
-  label{
-    font-size: .6em;
-  }
-  .mentions_container{
-    max-width:100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 20px;
-  }
-  footer{
-    font-size: .8em;
-  }
-
+    h1 {
+        font-size: .9em;
+    }
+    h2 {
+        font-size: .8em;
+    }
+    h3 {
+        font-size: .7em;
+    }
+    p {
+        font-size: .6em;
+    }
+    button {
+        font-size: .6em;
+    }
+    .form button {
+        font-size: .7em;
+    }
+    label {
+        font-size: .6em;
+    }
+    .mentions_container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
+    /*
+    change footer with more padding and its a elements
+    */
+    footer {
+        padding: 20px 0;
+        font-size: .8em;
+    }
+    footer a {
+        font-size: .7em;
+    }
+    /*
+      fix the space between the module to footer
+    */
+    .sale {
+        padding: 2rem;
+    }
 }

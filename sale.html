@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <!-- Enlace de los estilos -->
@@ -14,54 +15,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap" rel="stylesheet">
     <!-- titulo de la pagina -->
     <title>Pago</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- star navbar -->
     <nav class="fadeInDown">
-      <div class="brand_image" >
-        <a href="index.html">
-          <img src="https://cdn.pixabay.com/photo/2020/04/26/17/18/sun-bear-5096264_1280.png" height="45px" width="45px"alt="">
-        </a>
-      </div>
+        <div class="brand_image">
+            <a href="index.html">
+                <img src="https://cdn.pixabay.com/photo/2020/04/26/17/18/sun-bear-5096264_1280.png" height="45px" width="45px" alt="">
+            </a>
+        </div>
 
-      <div class="nav_options">
-        <ul>
-          <li><a href="faq.html">Faq</a></li>
-          <li><a href="product.html">Description</a></li>
-        </ul>
-      </div>
+        <div class="nav_options">
+            <ul>
+                <li><a href="faq.html">Faq</a></li>
+                <li><a href="product.html">Description</a></li>
+            </ul>
+        </div>
     </nav>
     <!-- end navbar -->
     <!-- star Form sale -->
     <section class="sale fadeInUp">
-      <div class="container">
-        <div class="imgSale">
-          <img src="https://static.platzi.com/media/tmp/class-files/git/Desarrollo_web/Desarrollo_web-c11/images/box1.png" alt="">
-          <h4>Producto 1</h4>
-          <p>Te estás llevando un gordito con su caja, ¡Excelente decisión!</p>
+        <div class="container">
+            <div class="imgSale">
+                <img src="https://static.platzi.com/media/tmp/class-files/git/Desarrollo_web/Desarrollo_web-c11/images/box1.png" alt="">
+                <h4>Producto 1</h4>
+                <p>Te estás llevando un gordito con su caja, ¡Excelente decisión!</p>
+            </div>
+            <form class="form" action="falla.html" method="post">
+                <!-- <form class="form" action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B8HN2YRNN8AKA" method="post"> -->
+                <label for="name">Nombre</label>
+                <input type="text" name="name" value="">
+                <label for="email">E-Mail</label>
+                <input type="text" name="email" value="">
+                <label for="phone">Teléfono</label>
+                <input type="text" name="phone" value="">
+                <button type="submit" class="main_button" name="submit">Confirmar pago</button>
+            </form>
         </div>
-        <form class="form" action="falla.html" method="post">
-        <!-- <form class="form" action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B8HN2YRNN8AKA" method="post"> -->
-          <label for="name">Nombre</label>
-          <input type="text" name="name" value="">
-          <label for="email">E-Mail</label>
-          <input type="text" name="email" value="">
-          <label for="phone">Teléfono</label>
-          <input type="text" name="phone" value="">
-          <button type="submit" class="main_button"name="submit">Confirmar pago</button>
-        </form>
-      </div>
     </section>
     <!-- end Form sale -->
     <!-- star footer -->
     <footer class="fadeInUp">
-      <div class="copyright "><a href="terminos.html">Terminos y condiciones</a></div>
-      <div class="mail"><a href="mailto:psialfredomtz@gmail.com"> psialfredomtz@gmail.com </a></div>
+        <div class="copyright "><a href="terminos.html">Terminos y condiciones</a></div>
+        <div class="mail"><a href="mailto:psialfredomtz@gmail.com"> psialfredomtz@gmail.com </a></div>
     </footer>
     <!-- end footer -->
     <!-- star JavaScript -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script/index.js" charset="utf-8"></script>
     <!-- end Javacript -->
-  </body>
+</body>
+
 </html>
