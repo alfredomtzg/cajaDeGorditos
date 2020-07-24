@@ -40,6 +40,9 @@
     .mentions_description {
         margin-top: 25px;
     }
+    .sale {
+        padding: 4rem 2rem;
+    }
 }
 
 @media (max-width: 425px) {
