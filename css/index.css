@@ -72,9 +72,7 @@ nav li a:hover{
   text-align: center;
   box-sizing: border-box;
 }
-.img_content img{
-  width: 100vw;
-}
+
 .main_button{
   color: #000;
   border-radius: 5px;
